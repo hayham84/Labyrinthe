@@ -7,15 +7,6 @@
 
 using namespace std;
 
-#include <ncurses.h>
-#include "labIO.h"
-#include<iostream>
-#include<fstream>
-#include <cstdlib>
-#include<unistd.h>
-
-using namespace std;
-
 void init(Case & c)
 {
     // Initialise une case avec toutes les portes fermées et non visitée
